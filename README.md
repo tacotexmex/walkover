@@ -10,8 +10,7 @@ I have implemented a server_side version in lua using globalstep which people mi
 Example Usage
 -------------
 
-   minetest.register_node("somemod:someblock", {
-
+minetest.register_node("somemod:someblock", {
        description = key,
        tiles = {"somemod_someblock.png"},
            groups = {cracky=1},
