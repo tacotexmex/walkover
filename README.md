@@ -10,14 +10,14 @@ I have implemented a server_side version in lua using globalstep which people mi
 Example Usage
 -------------
 
-minetest.register_node("somemod:someblock", {
-       description = key,
-       tiles = {"somemod_someblock.png"},
-           groups = {cracky=1},
-             on_walk_over = function(pos, node, player)
-            
-                    minetest.chat_send_player(player, "Hey! Watch it!")
-             end
-})
+    minetest.register_node("somemod:someblock", {
+           description = key,
+           tiles = {"somemod_someblock.png"},
+               groups = {cracky=1},
+                 on_walk_over = function(pos, node, player)
+                
+                        minetest.chat_send_player(player, "Hey! Watch it!")
+                 end
+    })
 
  
